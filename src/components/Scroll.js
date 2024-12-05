@@ -5,14 +5,14 @@ const Scroll = (props) => {
     return (
         <div style={{ 
             overflowY: 'scroll',
-            border: '3px solid #66FCF1',
+            border: '2px solid rgba(255, 140, 0, 0.3)',
             height: '80vh',
             margin: '10px',
             padding: '10px',
-            borderRadius: '10px',
-            boxShadow: '0 0 15px rgba(102, 252, 241, 0.3)',
-            background: 'rgba(31, 40, 51, 0.7)',
-            backdropFilter: 'blur(5px)'
+            borderRadius: '15px',
+            boxShadow: '0 0 25px rgba(255, 77, 0, 0.2)',
+            background: 'rgba(26, 15, 15, 0.7)',
+            backdropFilter: 'blur(10px)'
         }}>
             {props.children}
         </div>

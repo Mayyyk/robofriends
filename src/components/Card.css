@@ -1,0 +1,33 @@
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 1rem;
+  transition: all 0.15s ;
+  border: 1px solid rgba(255, 140, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 77, 0, 0.3);
+  border: 1px solid rgba(255, 140, 0, 0.4);
+}
+
+.card img {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 10px rgba(255, 77, 0, 0.3));
+}
+
+.card h2 {
+  color: #ff8c00;
+  margin: 0.5rem 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0.5rem 0;
+} 

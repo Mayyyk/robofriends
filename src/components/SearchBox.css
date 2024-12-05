@@ -1,0 +1,27 @@
+.search-box {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.search-box input {
+  width: 300px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255, 77, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.search-box input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+} 
